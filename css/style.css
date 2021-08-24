@@ -358,6 +358,7 @@ a{
 	font-weight: bold;
 	color: #3DC5A4;
 	text-align: center;
+	padding: 0 30px;
 	padding-bottom: 10px;
 }
 
@@ -436,6 +437,27 @@ a{
 	color: #fff;
 	border-radius: 4px;
 	transition: all 0.3s;
+}
+
+.btn--fresh{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 4px 20px;
+	margin-top: 8px;
+	margin-left: 20px;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #3DC5A4;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px){
+	.btn--fresh{
+		margin-left: 0;
+	}
 }
 
 .btn.btn-primary{
@@ -532,6 +554,7 @@ a{
 	font-size: 20px;
 	color: #fff;
 	padding: 20px 0;
+	padding-top: 60px;
 	text-align: center;
 }
 
@@ -628,6 +651,30 @@ a{
 }
 
 /* image-container */
+.img{
+	height: 100%;
+	width: auto;
+	margin-bottom: 15px;
+	position: absolute;
+	left: 110px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	transition: transform 0.2s;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 540px) {
+	.img{
+		left: 40px;
+	}
+}
+
 .image-container{
 	width: 100%;
 	margin-bottom: 15px;
@@ -777,9 +824,15 @@ a{
 	text-align: center;
 	color: #F0F0F0;
 	line-height: 24px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	text-align: justify;
-	margin-left: 10px;
+	margin: 0 30px;
+	margin-left: 20px;
+}
+@media screen and (max-width: 768px){
+	.item .para--fresh{
+		margin: 0;
+	}
 }
 
 .post{
