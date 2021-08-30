@@ -716,6 +716,7 @@ a{
 @media screen and (max-width: 540px) {
 	.image-container .image{
 		margin: 0;
+		border-radius: 10px;
 	}
 }
 
